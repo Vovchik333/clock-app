@@ -1,0 +1,14 @@
+.time-settings {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 480px) {
+    .time-settings {
+        flex-direction: column;
+        gap: 25px;
+    }
+}

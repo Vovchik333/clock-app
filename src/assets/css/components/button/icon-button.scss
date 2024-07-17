@@ -1,0 +1,19 @@
+@use '../../variables' as vars;
+
+.icon-button {
+    cursor: pointer;
+    background-color: vars.$secondary-color;
+    color: vars.$primary-text-color;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+
+}
